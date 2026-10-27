@@ -1,0 +1,12 @@
+[package]
+name = "zi-lab2"
+version = "0.1.0"
+edition = "2021"
+description = "ЛР2 по защите информации: шифрование методом перестановки (вариант 1)"
+
+[[bin]]
+name = "zi-lab2"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 2

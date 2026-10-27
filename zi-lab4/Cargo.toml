@@ -1,0 +1,12 @@
+[package]
+name = "zi-lab4"
+version = "0.1.0"
+edition = "2021"
+description = "ЛР4 по защите информации: классический криптографический алгоритм DES (режим ECB)"
+
+[[bin]]
+name = "zi-lab4"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 2

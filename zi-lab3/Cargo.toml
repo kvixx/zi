@@ -1,0 +1,12 @@
+[package]
+name = "zi-lab3"
+version = "0.1.0"
+edition = "2021"
+description = "ЛР3 по защите информации: линейное шифрование (гаммирование), вариант 1"
+
+[[bin]]
+name = "zi-lab3"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 2

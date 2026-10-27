@@ -1,0 +1,12 @@
+[package]
+name = "zi-lab1"
+version = "0.1.0"
+edition = "2021"
+description = "ЛР1 по защите информации: шифрование методом подстановки (вариант 1)"
+
+[[bin]]
+name = "zi-lab1"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 2
